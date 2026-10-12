@@ -23,7 +23,9 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en
+          
+          options: "username=${{ github.repository_owner }}&custom_title=C%CA%9C%E1%B4%80%C9%AA%E1%B4%9B%E1%B4%80%C9%B4%CA%8F%E1%B4%80's%20G%C9%AA%E1%B4%9BH%E1%B4%9C%CA%99%20S%E1%B4%9B%E1%B4%80%E1%B4%9Bs&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en"
+
           path: dist/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
